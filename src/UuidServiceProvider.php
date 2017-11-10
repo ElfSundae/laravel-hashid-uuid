@@ -30,6 +30,6 @@ class UuidServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return [];
+        return ['hashid.driver.uuid'];
     }
 }
