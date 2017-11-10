@@ -1,0 +1,43 @@
+{
+    "name": "elfsundae/laravel-hashid-uuid",
+    "type": "library",
+    "description": "Shorten UUID encoding for Laravel Hashid",
+    "keywords": ["uuid", "short", "laravel", "hashid"],
+    "homepage": "https://github.com/ElfSundae/laravel-hashid-uuid",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elf Sundae",
+            "email": "elf.sundae@gmail.com",
+            "homepage": "https://0x123.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "elfsundae/laravel-hashid": "~1.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ElfSundae\\Laravel\\Hashid\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ElfSundae\\Laravel\\Hashid\\Test\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ElfSundae\\Laravel\\Hashid\\UuidServiceProvider"
+            ]
+        }
+    }
+}
