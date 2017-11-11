@@ -64,6 +64,7 @@ class UuidDriver implements DriverInterface
         try {
             return Uuid::fromBytes($this->getConnection()->decode($data));
         } catch (Exception $e) {
+            unset($e);
         }
 
         return Uuid::fromString(Uuid::NIL);
