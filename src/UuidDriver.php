@@ -17,7 +17,7 @@ class UuidDriver implements DriverInterface
     protected $manager;
 
     /**
-     * The hashid connection name.
+     * The hashid connection name for encoding and decoding.
      *
      * @var string
      */
