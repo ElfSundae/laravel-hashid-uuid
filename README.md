@@ -73,8 +73,11 @@ hashid_encode($uuid, 'uuid_hashids');   // "kp2wZkXOBzSMNA3nPxNzSOZJ701"
 
 // Decode
 $decoded = hashid_decode('6Fj7unqIaNKkq5zbJo1HJ8', 'uuid_base62');
-(string) $decoded; // "cd79e206-c715-11e7-891d-8bf37117635e"
-$decoded->getDateTime()->format('Y-m-d H:i:s'); // "2017-11-11 19:23:31"
+(string) $decoded;                               // "cd79e206-c715-11e7-891d-8bf37117635e"
+$decoded->getDateTime()->format('Y-m-d H:i:s');  // "2017-11-11 19:23:31"
+
+// Decoding failure
+(string) hashid_decode('foobar', 'uuid_base62'); // "00000000-0000-0000-0000-000000000000"
 ```
 
 ## Testing
