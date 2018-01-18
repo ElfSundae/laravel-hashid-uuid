@@ -54,8 +54,12 @@ class UuidDriverTest extends TestCase
     protected function getDriver(array $config = [])
     {
         $manager = m::mock(HashidManager::class);
-        $manager->shouldReceive('connection')
-            ->andReturn(new Base62Driver);
+
+        if (isset($config['connection'])) {
+            $manager->shouldReceive('connection')
+                ->with($config['connection'])
+                ->andReturn(new Base62Driver);
+        }
 
         return new UuidDriver($manager, $config);
     }

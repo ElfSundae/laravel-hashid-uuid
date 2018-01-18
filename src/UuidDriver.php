@@ -4,7 +4,6 @@ namespace ElfSundae\Laravel\Hashid;
 
 use Exception;
 use Ramsey\Uuid\Uuid;
-use Illuminate\Support\Arr;
 use InvalidArgumentException;
 
 class UuidDriver implements DriverInterface
@@ -35,9 +34,11 @@ class UuidDriver implements DriverInterface
     {
         $this->manager = $manager;
 
-        $this->connection = Arr::get($config, 'connection', function () {
+        if (isset($config['connection'])) {
+            $this->connection = $config['connection'];
+        } else {
             throw new InvalidArgumentException('A connection name must be specified.');
-        });
+        }
     }
 
     /**
