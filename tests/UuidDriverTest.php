@@ -2,13 +2,13 @@
 
 namespace ElfSundae\Laravel\Hashid\Test;
 
-use Mockery as m;
-use Ramsey\Uuid\Uuid;
-use InvalidArgumentException;
-use PHPUnit\Framework\TestCase;
-use ElfSundae\Laravel\Hashid\UuidDriver;
 use ElfSundae\Laravel\Hashid\Base62Driver;
 use ElfSundae\Laravel\Hashid\HashidManager;
+use ElfSundae\Laravel\Hashid\UuidDriver;
+use InvalidArgumentException;
+use Mockery as m;
+use PHPUnit\Framework\TestCase;
+use Ramsey\Uuid\Uuid;
 
 class UuidDriverTest extends TestCase
 {

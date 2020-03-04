@@ -3,8 +3,8 @@
 namespace ElfSundae\Laravel\Hashid;
 
 use Exception;
-use Ramsey\Uuid\Uuid;
 use InvalidArgumentException;
+use Ramsey\Uuid\Uuid;
 
 class UuidDriver implements DriverInterface
 {
