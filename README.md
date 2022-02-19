@@ -1,6 +1,6 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/elfsundae/laravel-hashid-uuid.svg?style=flat-square)](https://packagist.org/packages/elfsundae/laravel-hashid-uuid)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/ElfSundae/laravel-hashid-uuid/master.svg?style=flat-square)](https://travis-ci.org/ElfSundae/laravel-hashid-uuid)
+[![tests](https://github.com/ElfSundae/laravel-hashid-uuid/actions/workflows/tests.yml/badge.svg)](https://github.com/ElfSundae/laravel-hashid-uuid/actions/workflows/tests.yml)
 [![StyleCI](https://styleci.io/repos/110262872/shield)](https://styleci.io/repos/110262872)
 [![SymfonyInsight Grade](https://img.shields.io/symfony/i/grade/57a207e1-f852-42c4-8260-a078b7dff9df?style=flat-square)](https://insight.symfony.com/projects/57a207e1-f852-42c4-8260-a078b7dff9df)
 [![Quality Score](https://img.shields.io/scrutinizer/g/ElfSundae/laravel-hashid-uuid.svg?style=flat-square)](https://scrutinizer-ci.com/g/ElfSundae/laravel-hashid-uuid)
