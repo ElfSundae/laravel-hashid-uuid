@@ -1,3 +1,5 @@
+# Laravel Hashid UUID
+
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/elfsundae/laravel-hashid-uuid.svg?style=flat-square)](https://packagist.org/packages/elfsundae/laravel-hashid-uuid)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![tests](https://github.com/ElfSundae/laravel-hashid-uuid/actions/workflows/tests.yml/badge.svg)](https://github.com/ElfSundae/laravel-hashid-uuid/actions/workflows/tests.yml)
@@ -5,6 +7,7 @@
 [![SymfonyInsight Grade](https://img.shields.io/symfony/i/grade/57a207e1-f852-42c4-8260-a078b7dff9df?style=flat-square)](https://insight.symfony.com/projects/57a207e1-f852-42c4-8260-a078b7dff9df)
 [![Quality Score](https://img.shields.io/scrutinizer/g/ElfSundae/laravel-hashid-uuid.svg?style=flat-square)](https://scrutinizer-ci.com/g/ElfSundae/laravel-hashid-uuid)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/ElfSundae/laravel-hashid-uuid/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/ElfSundae/laravel-hashid-uuid/?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/elfsundae/laravel-hashid.svg?style=flat-square)](https://packagist.org/packages/elfsundae/laravel-hashid)
 
 This is a plugin package for [Laravel Hashid][hashid], it provides an `uuid` hashid driver to shorten your [UUID] encoding.
 
